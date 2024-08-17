@@ -16,7 +16,6 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from car.views import car_list
 
 urlpatterns = [
     path("admin/", admin.site.urls),
